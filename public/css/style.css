@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 10:49 PM 25/3/2024 */
+.home{
+    width: 130px;
+}
+.taoNG{
+    width: 200px;
+}
+.far-user{
+    width: 150px;
+}
+.user{
+    color: rgb(34, 230, 12);
+    background-color: rgb(202, 244, 200);
+    border: 1px hidden black;
+    border-radius: 5px;
+    width: 120px;
+}
+.nguyengop{
+    margin-left: 5px;
+    color: rgb(24, 91, 236);
+    background-color: rgb(135, 207, 240);
+    border: 1px hidden black;
+    border-radius: 5px;
+    width: 150px;
+}
+.search{
+    margin-top: 5px;
+    width: 250px;
+}
+.title{
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: #0F4385;
+}
+.col-sm-6>img{
+    width: 500px;
+    height: 320px;
+    border-radius: 5%;
+}
+.title-item3{
+   
+    border: 1px hidden black;
+    border-radius: 20px;
+    width: 550px;
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: #0F4385;
+    background-color: #f7f4f4;
+}
+.item4{
+    background-color: #e8f2ff;
+    padding: 15px;
+}
+.number-item4{
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    color: #0f4385;
+}
+.text-item4{
+    color: #0F4385;
+}
+.title-item5{
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: #0F4385;
+}
+.img-item5>img{
+    border-radius: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}#img1-item5{
+    height: 250px;
+}
+
+.title-item6{
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: #0F4385;
+}
+
+.center-item5{
+   margin-top: 100px;
+}
+
+.button>a{
+    width: 150px;
+    font-weight: bold;
+    color: #0F4385;
+    border: 1px solid #0F4385;
+    border-radius: 5px;
+}
+.button>a:hover{
+    background-color: #E8F2FF;
+    color: #0F4385;
+}
+.title-item7{
+    text-align: center;
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: #0F4385;
+}
+.title-item8{
+    text-align: center;
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: #0F4385;
+}
+footer{
+    background-color: #0F4385;
+    color: white;
+}
+.title-ft{
+    font-family: "Nunito", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+/* .img-item5>img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.img1-item5>img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+} */
+
+
+/* dsfsihf Diệu bị khùng dsuyjgbsdjkgsukjdfgusdikdgfdsgdfhg */
+header {
+    background-color: antiquewhite;
+    height: 70px;
+    display: flex;
+
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+.content1>img {
+    width: 100%;
+}
+
+.button {
+   
+    /* Green */
+    border: none;
+    color: rgb(5, 4, 4);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.button4 {
+    background-color: rgb(185, 253, 231);
+    border-radius: 12px;
+    color: rgb(10, 10, 113);
+}
+
+.button5 {
+   background-color:white;
+    border-radius: 12px;
+    border: 1px solid rgb(86, 241, 128);
+    color: rgb(86, 241, 128);
+}
+
+.button6 {
+     background-color:white;
+     border-radius: 7px;
+     border: 1px solid rgb(226, 232, 227);
+     color: rgb(17, 21, 81);
+ }
